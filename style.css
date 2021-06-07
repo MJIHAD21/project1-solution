@@ -1,0 +1,72 @@
+
+section{ 
+    background-color: gray;
+    border :1px solid black;
+    width: 29%;
+    display:inline-block ;
+    margin-left: 30px;
+    
+}
+h1{ 
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+h2{ 
+    width: 20%;
+    float: right;
+    border-color: black;
+    margin-top: 0px;
+    padding: 5px;
+    border-width: 0px 0px 1px 1px;
+    border-style: solid;
+    
+}
+p{
+    
+    text-align: left;
+    padding: 5px;
+    display: inline-block;
+}
+ .chiken{
+    background-color: #d96c80;
+}
+.beef{
+    background-color: #bd1534;
+}
+ .sushi{
+    background-color: #cfc382;
+}
+
+  @media screen and (max-width: 991px) {
+    .s1 {
+        margin: 18px;
+        width: 43%;
+    }
+    .s2 {
+        margin:18px;
+        width: 43%;
+    }
+    .s3 {
+        margin: 18px;
+        width: 90.5%;
+    }
+  }
+
+
+
+  @media screen and (max-width: 767px) {
+    .s1 {
+        margin: 35px;
+        width: 90%;
+    }
+    .s2 {
+        margin: 35px;
+        width: 90%;
+    }
+    .s3 {
+        margin: 35px;
+        width: 90%;
+    }
+  }
